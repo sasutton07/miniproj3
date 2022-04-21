@@ -72,6 +72,7 @@ header h2{
 .home{
     background-color: rgba(0,0,0,.6);
 }
+
 section{
     width: 75%;
     color: white;
@@ -88,10 +89,11 @@ aside{
 }
 
 article{
-    width: 50%;
+    width: 100%;
     background-color: lightcyan;
     padding: 30px 0;
-    margin: 30px auto
+    margin: 30px auto;
+    margin-left: 6em;
 }
 article h4{
     color: black;
