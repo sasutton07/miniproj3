@@ -9,10 +9,11 @@
     display: table;
 }
 html{
+    background-attachment: fixed;
     background-image: url(../images/backgroundimg.jpg);
 }
 body{
-    background-color: rgba(0, 0, 0, .8);
+    background-image: url(../images/backgroundimg.jpg);
     font-family: 'Lobster Two', cursive;
 }
 header{
@@ -68,10 +69,22 @@ header h2{
     margin-right: 0;
 }
 
+.home{
+    background-color: rgba(0,0,0,.6);
+}
 section{
     width: 75%;
+    color: white;
     float: left;
-    margin: 30px auto;
+    margin: 2em 2em;
+    padding-left: 2em;
+    width: 50%;
+}
+aside{
+    float: right;
+    width: 50%;
+    max-width: 450px;
+    margin-top: 1.5em;
 }
 
 article{
@@ -81,8 +94,10 @@ article{
     margin: 30px auto
 }
 article h4{
+    color: black;
+    text-align: center;
     font-size: 120%;
-    padding: 0 0 15px 1em;
+    padding: 0 1em;
 }
 
 .videowrapper {
